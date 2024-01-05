@@ -1,0 +1,44 @@
+.card {
+  width: 20rem;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  font-size: 0.85rem;
+  font-weight: 400;
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.btn-container button {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(90deg, #0093FF 0%, #005CFF 100%);;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
